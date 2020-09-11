@@ -1,0 +1,30 @@
+body {
+  background: #257;
+}
+
+#wave {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  height: 130px;
+  margin: 0px;
+  padding-top: 250px;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+@keyframes move {
+  0% {
+    padding-top: 250px;
+  }
+  50% {
+    padding-top: 0px;
+  }
+  100% {
+    padding-top: 250px;
+  }
+}
