@@ -11,13 +11,13 @@ body {
   height: 130px;
   margin: 0px;
   padding-top: 250px;
-  animation-name: move;
+  /* animation-name: move;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
+  animation-delay: 0s; */
 }
 
-@keyframes move {
+/* @keyframes move {
   0% {
     padding-top: 250px;
   }
@@ -27,4 +27,4 @@ body {
   100% {
     padding-top: 250px;
   }
-}
+} */
