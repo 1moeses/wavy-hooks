@@ -1,5 +1,12 @@
 body {
-  background: #257;
+  height: 100vh;
+  background: #f5576c;
+  background: linear-gradient(
+    180deg,
+    rgba(245, 87, 108, 1) 50%,
+    hsl(204, 56%, 30%) 80%,
+    hsl(204, 56%, 10%) 100%
+  );
 }
 
 #wave {
@@ -7,24 +14,8 @@ body {
   left: 0px;
   width: 100%;
   position: absolute;
-  background: rgb(255, 255, 255);
-  height: 130px;
+  background: hsl(352, 89%, 88%);
+  height: 100px;
   margin: 0px;
-  padding-top: 250px;
-  /* animation-name: move;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-delay: 0s; */
+  padding-top: 400px;
 }
-
-/* @keyframes move {
-  0% {
-    padding-top: 250px;
-  }
-  50% {
-    padding-top: 0px;
-  }
-  100% {
-    padding-top: 250px;
-  }
-} */
